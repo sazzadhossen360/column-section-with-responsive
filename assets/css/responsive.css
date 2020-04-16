@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: lightblue;
+    }
+    .section-title h2:after {
+        content: "";
+        background-color:#222222;
+        left: 50%;
+        width: 20px;
+        height: 5px;
+        margin-left: -18px;
+        position: absolute;
+        bottom:51px;
+    }
+  }
